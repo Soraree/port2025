@@ -1,57 +1,95 @@
-/* normalize */
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
-button{
-    border: none;
-    background: none;
-}
-
 /* font style */
 /* ko */
 @font-face {
     font-family: 'PretendardGOV';
     src: url(/font/pretendardGOV/PretendardGOVVariable.ttf);
     font-weight:100 900;
-    font-size: normal;
+    font-size: 1rem;
 }
 /* en */
 @font-face {
     font-family: 'Poppins';
     src: url(/font/Poppins/Poppins-Medium.ttf);
     font-weight:100;
-    font-size: normal;
+    font-size: 1rem;
 }
 @font-face {
     font-family: 'Poppins';
     src: url(/font/Poppins/Poppins-Light.ttf);
     font-weight:200;
-    font-size: normal;
+    font-size: 1rem;
 }
 @font-face {
     font-family: 'Poppins';
     src: url(/font/Poppins/Poppins-Regular.ttf);
     font-weight:300;
-    font-size: normal;
+    font-size: 1rem;
 }
 @font-face {
     font-family: 'Poppins';
     src: url(/font/Poppins/Poppins-Medium.ttf);
     font-weight:400;
-    font-size: normal;
+    font-size: 1rem;
 }
 @font-face {
     font-family: 'Poppins';
     src: url(/font/Poppins/Poppins-SemiBold.ttf);
     font-weight:500;
-    font-size: normal;
+    font-size: 1rem;
 }
 @font-face {
     font-family: 'Poppins';
     src: url(/font/Poppins/Poppins-Bold.ttf);
     font-weight:600;
-    font-size: normal;
+    font-size: 1rem;
+}
+
+/* color */
+:root{
+    /* 포인트색상 */
+    --primary-color: #B98BF0;
+    /* 배경색상 */
+    --bg-color-black: #232225; 
+    /* 흰색 80% */
+    --white-80: rgba(255, 255, 255, 0.8);
+    /* 버튼컬러 */
+    --button-purple: #B98BF0;
+    --button-blue: #5E9EFF;
+    --button-green: #75A32C;
+}
+
+/* normalize */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: 'Poppins','PretendardGOV', sans-serif;
+}
+button{
+    border: none;
+    background: none;
+}
+/* button style */
+.project-btn{
+    font-size: 1.125rem;
+    width:4.75rem;
+    height: 2.75rem;
+    border-radius: 0.625rem;
+    color: #FFF;
+    font-weight:500;
+}
+.btn-purple{
+    background-color: rgba(185,139,240,0.4);
+    border-color: 1px solid rgba(185,139,240,0.5);
+}
+.btn-blue{
+    background-color: rgba(94,158,255,0.4);
+    border-color: 1px solid rgba(94,158,255,0.5);
+}
+.btn-green{
+    background-color: rgba(117,163,44,0.4);
+    border-color: 1px solid rgba(117,163,44,0.5);
 }
