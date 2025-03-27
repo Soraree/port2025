@@ -1,0 +1,57 @@
+/* normalize */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+button{
+    border: none;
+    background: none;
+}
+
+/* font style */
+/* ko */
+@font-face {
+    font-family: 'PretendardGOV';
+    src: url(/font/pretendardGOV/PretendardGOVVariable.ttf);
+    font-weight:100 900;
+    font-size: normal;
+}
+/* en */
+@font-face {
+    font-family: 'Poppins';
+    src: url(/font/Poppins/Poppins-Medium.ttf);
+    font-weight:100;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(/font/Poppins/Poppins-Light.ttf);
+    font-weight:200;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(/font/Poppins/Poppins-Regular.ttf);
+    font-weight:300;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(/font/Poppins/Poppins-Medium.ttf);
+    font-weight:400;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(/font/Poppins/Poppins-SemiBold.ttf);
+    font-weight:500;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(/font/Poppins/Poppins-Bold.ttf);
+    font-weight:600;
+    font-size: normal;
+}
