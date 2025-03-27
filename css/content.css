@@ -1,0 +1,12 @@
+body::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    max-height: 67.5rem;
+    background: url(/img/hero-bg-banner@2.png) no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+}
