@@ -1,12 +1,78 @@
-body::before{
-    content: '';
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    max-height: 67.5rem;
-    background: url(/img/hero-bg-banner@2.png) no-repeat;
-    background-size: cover;
-    left: 0;
-    right: 0;
+/* about section */
+#about-section{
+    padding-top: 9.375rem;
+}
+.about-title-1{
+    font-size: 2.625rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+.about-title-2{
+    font-size: 3.375rem;
+    margin-bottom: 6.5rem;
+    font-weight: 600;
+}
+.about-title-3{
+    font-size: 1.875rem;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+}
+.about-title-4{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.about-title-4 strong{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* 공통요소 */
+.section-main-title{
+    font-size: 3.125rem;
+    font-weight: 400;
+}
+section > *{
+    letter-spacing: -0.25px;
+    line-height: 140%;
+}
+
+/* skills section */
+.skills{
+    padding-top: 3.125rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+.skills > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.skills .list{
+    display: flex;
+    gap: 1.875rem;
+}
+.skills .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+.skills .img-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--white-80);
+    border-radius: 1.25rem;
+}
+.skills .img-box{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+.skills .img-wrap span{
+    color: var(--white-70);
+    font-size: 1.875rem;
+    font-weight: 300;
 }

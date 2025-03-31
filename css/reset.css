@@ -50,8 +50,9 @@
     --primary-color: #B98BF0;
     /* 배경색상 */
     --bg-color-black: #232225; 
-    /* 흰색 80% */
+    /* 흰색*/
     --white-80: rgba(255, 255, 255, 0.8);
+    --white-70: rgba(255, 255, 255, 0.7);
     /* 버튼컬러 */
     --button-purple: #B98BF0;
     --button-blue: #5E9EFF;
