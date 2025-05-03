@@ -50,13 +50,31 @@
     --primary-color: #B98BF0;
     /* 배경색상 */
     --bg-color-black: #232225; 
+    /* 헤더배경 */
+    --bg-header-black: rgb(35,34,37, 0.5);
     /* 흰색*/
     --white-80: rgba(255, 255, 255, 0.8);
     --white-70: rgba(255, 255, 255, 0.7);
+    --white-20: rgba(255, 255, 255, 0.2);
+    /* 검은색 */
+    --black-80 : rgba(0,0,0,0.8);
     /* 버튼컬러 */
     --button-purple: #B98BF0;
     --button-blue: #5E9EFF;
     --button-green: #75A32C;
+
+    /* 폰트 */
+    --main-font:'Poppins','PretendardGOV', sans-serif;
+    --main-font-weight:300;
+    /* 폰트굵기 */
+    --bold-font-weight:500;
+    --semibold-font-weight:400;
+    --ligth-font-weight:200;
+
+    --header-height:5.625rem;/*90px*/
+    --section-height:67.5rem;/*1080px*/
+    --padding-top-section:3.125rem;
+    --margin-section:1.875rem;/*30px*/
 }
 
 /* normalize */
@@ -65,14 +83,15 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-weight: 300;
     line-height: 1.5;
-    font-family: 'Poppins','PretendardGOV', sans-serif;
+    font-family: var(--main-font);
+    font-weight: var(--main-font-weight);
     color: inherit;
 }
 button{
     border: none;
     background: none;
+    box-sizing: border-box;
 }
 /* button style */
 .project-btn{
@@ -82,16 +101,19 @@ button{
     border-radius: 0.625rem;
     color: #FFF;
     font-weight:500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn-purple{
     background-color: rgba(185,139,240,0.4);
-    border-color: 1px solid rgba(185,139,240,0.5);
+    border: 1px solid rgba(185,139,240,0.5);
 }
 .btn-blue{
     background-color: rgba(94,158,255,0.4);
-    border-color: 1px solid rgba(94,158,255,0.5);
+    border: 1px solid rgba(94,158,255,0.5);
 }
 .btn-green{
     background-color: rgba(117,163,44,0.4);
-    border-color: 1px solid rgba(117,163,44,0.5);
+    border: 1px solid rgba(117,163,44,0.5);
 }
