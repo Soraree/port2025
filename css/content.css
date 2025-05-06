@@ -1,8 +1,8 @@
 /* about section */
 #about-section{
-    padding-top: 9.375rem;
+    padding-top: 11.375rem;
     border-bottom: 0;
-    height: calc(var(--section-height) - 9.375rem - var(--header-height));
+    height: calc(var(--section-height) - 11.375rem - var(--header-height));
 }
 .about-title-1{
     font-size: 2.625rem;
